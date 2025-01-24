@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odin Osayande - Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Odin Osayande</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#objective">Objective</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#technical-skills">Technical Skills</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Search...">
+            <button type="submit">Search</button>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="banner">
+                <h2>Welcome to My Personal Website</h2>
+                <p>Explore my journey in technology and design.</p>
+            </div>
+        </section>
+
+        <section id="objective">
+            <h2 class="animated-text">Objective</h2>
+            <p class="animated-text">I am a Mechanical Engineering graduate with expertise in backend and frontend development using C#, Python, and Node.js. Passionate about UI/UX design, I aim to create intuitive user experiences. Proficient in MS Office, I excel at presenting ideas clearly and effectively while seeking opportunities in the tech industry.</p>
+        </section>
+
+        <section id="education">
+            <h2 class="animated-text">Education</h2>
+            <p class="animated-text"><strong>University of Benin</strong><br>Bachelor of Science in Mechanical Engineering<br>Graduated: July 2024<br>Second Class Degree</p>
+        </section>
+
+        <section id="skills">
+            <h2 class="animated-text">Skills</h2>
+            <ul class="animated-text">
+                <li>Leadership</li>
+                <li>Strong Work Ethic</li>
+                <li>Punctuality</li>
+                <li>Adaptability</li>
+                <li>Excellent Communication</li>
+                <li>Team Collaboration</li>
+                <li>Problem-Solving</li>
+                <li>Attention to Detail</li>
+                <li>Time Management</li>
+                <li>Initiative</li>
+            </ul>
+        </section>
+
+        <section id="experience">
+            <h2 class="animated-text">Experience</h2>
+            <h3 class="animated-text">Freelance Web Developer</h3>
+            <p class="animated-text">Self-Employed</p>
+            <ul class="animated-text">
+                <li>Developed dynamic websites using HTML, CSS, JavaScript, and React, ensuring responsive design and cross-browser compatibility.</li>
+                <li>Conducted user research and usability testing to gather feedback and iterate on design, enhancing user satisfaction and engagement.</li>
+                <li>Managed project timelines, ensuring clients' projects were completed on schedule.</li>
+            </ul>
+
+            <h3 class="animated-text">Academic Projects</h3>
+            <h4 class="animated-text">Gaparone Project: Smart Meat Grilling Automation System</h4>
+            <p class="animated-text">Designed and implemented a smart meat grilling system using electrical, mechanical, and production technologies, allowing users to grill meat without supervision.</p>
+        </section>
+
+        <section id="technical-skills">
+            <h2 class="animated-text">Technical Skills</h2>
+            <h3>Programming Languages:</h3>
+            <ul>
+                <li><strong>C#:</strong> Proficient in object-oriented programming and developing applications using ASP.NET.</li>
+                <li><strong>Python:</strong> Experienced in scripting and web development with frameworks like Flask and Django.</li>
+                <li><strong>Node.js:</strong> Skilled in creating scalable web applications and RESTful APIs, leveraging asynchronous programming for high performance.</li>
+            </ul>
+
+            <h3>Web Development:</h3>
+            <ul>
+                <li><strong>Frontend Development:</strong> Expertise in HTML, CSS, and JavaScript, with experience in frameworks like React and Angular.</li>
+                <li><strong>Backend Development:</strong> Knowledgeable in server-side logic, database integration, and API development.</li>
+            </ul>
+
+            <h3>UI/UX Design and Graphic Design:</h3>
+            <ul>
+                <li>Strong understanding of design principles and user-centered processes, using tools like Figma and Adobe XD to create intuitive prototypes and wireframes.</li>
+                <li>Creation of logos and other graphic design materials.</li>
+            </ul>
+
+            <h3>Software Proficiency:</h3>
+            <ul>
+                <li><strong>MS Word:</strong> Skilled in creating and formatting documents and generating reports.</li>
+                <li><strong>MS Excel:</strong> Proficient in data analysis, using complex formulas and pivot tables.</li>
+                <li><strong>MS PowerPoint:</strong> Experienced in designing engaging presentations through visuals and animations.</li>
+            </ul>
+        </section>
+
+        <section id="gallery">
+            <h2 class="animated-text">Gallery</h2>
+            <div class="image-grid">
+                <img src="image1.jpg" alt="Odin Osayande">
+                <img src="image2.jpg" alt="Friend 1">
+                <img src="image3.jpg" alt="Friend 2">
+                <img src="image4.jpg" alt="Friend 3">
+                <img src="image5.jpg" alt="Friend 4">
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2 class="animated-text">Contact Me</h2>
+            <p>If you would like to connect, feel free to reach out via email or social media.</p>
+            <p>Email: <a href="mailto:odinosayande@gmail.com">odinosayande@gmail.com</a></p>
+            <div class="social-media">
+                <a href="https://twitter.com/yourprofile" target="_blank">Twitter</a>
+                <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+                <a href="https://github.com/yourprofile" target="_blank">GitHub</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Odin Osayande. All rights reserved.</p>
+        <p>References available upon request.</p>
+    </footer>
+
+    <script>
+        function animateText(element) {
+            element.style.opacity = 0;
+            element.style.transform = 'translateY(20px)';
+            element.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+            setTimeout(() => {
+                element.style.opacity = 1;
+                element.style.transform = 'translateY(0)';
+            }, 100);
+        }
+
+        const animatedElements = document.querySelectorAll('.animated-text');
+        animatedElements.forEach((element, index) => {
+            setTimeout(() => {
+                animateText(element);
+            }, index * 300);
+        });
+    </script>
+</body>
+</html>
